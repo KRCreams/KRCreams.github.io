@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KR Creams</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <!---testimonials----->
+
+    <section class="testimonials">
+      <nav>
+        <a href="index.html"><img src="images/KR Creams Logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="flavours.html">Flavours</a></li>
+            <li><a href="testimonials.html">Reviews</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="testimony">
+        <h1>Reviews</h1>
+      </div>
+      <div class="test-row">
+        <section class="snip1139">
+          <div class="test-col">
+            <blockquote>
+              KR Creams is my newfound favorite! The Butterfly Ice Cream was
+              delightful, and I have a suggestion: add a Korean-themed ice cream
+              for an even more appealing lineup. With their expertise and
+              creativity, KR Creams can create a captivating frozen delight that
+              stands out. Don't miss experiencing their incredible flavors and
+              innovative creations. From classic tastes to bold experiments like
+              the Aafat Ice Cream, their range is a testament to their passion
+              and quality.
+              <div class="arrow"></div>
+            </blockquote>
+            <img src="images/cv.jpg" alt="sample3" />
+            <div class="author">
+              <h5>Adarsh CV-C.E.O Hybe Corporation<span></span></h5>
+            </div>
+          </div>
+        </section>
+        <section class="snip1139 hover">
+          <div class="test-col">
+            <blockquote>
+              Thanks to my friend's recommendation, KR Creams has won me over!
+              The Aafat Ice Cream was a delightful indulgence that left me
+              craving more. Now, I have an exciting idea to take their lineup up
+              a notch—a one-of-a-kind Dosa-flavored ice cream. With their
+              innovation and expertise, I'm confident KR Creams can create this
+              unique flavor. Don't miss out on trying it, because their
+              creations are always a treat that delights the taste buds.
+              <div class="arrow"></div>
+            </blockquote>
+            <img src="images/abel.jpg" alt="sample47" />
+            <div class="author">
+              <h5>Abel Nelson E-C.E.O DOSA FACTORY<span></span></h5>
+            </div>
+          </div>
+        </section>
+        <section class="snip1139">
+          <div class="test-col">
+            <blockquote>
+              My friend introduced me to KR Creams, and I'm so glad they did!
+              The Humangas Ice Cream I tried was an absolute delight, leaving me
+              wanting more. I highly recommend checking out this place. With
+              their incredible flavors, attention to detail, and welcoming
+              atmosphere, KR Creams is definitely worth a visit for any ice
+              cream lover. I would recommend adding a new flavour so good that
+              it can help to hack passwords. Name it "Password Pear Bliss"
+              <div class="arrow"></div>
+            </blockquote>
+            <img src="images/evio.jpg" alt="sample17" />
+            <div class="author">
+              <h5>Evio Raju-C.E.O PASSWORDS INC.<span></span></h5>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!--------JavaScript for Toggle Menu------->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

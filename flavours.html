@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KR Creams</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <!------ Flavours ------->
+
+    <section class="Exclusives">
+      <nav>
+        <a href="index.html"><img src="images/KR Creams Logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="flavours.html">Flavours</a></li>
+            <li><a href="testimonials.html">Reviews</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Exclusive Flavours</h1>
+      <div class="row">
+        <div class="flav-col">
+          <h3>Humangas Ice Cream</h3>
+          <p>
+            Humangas Ice Cream by KR Creams is a whimsically daring creation
+            that defies expectations and tickles taste buds with its
+            unconventional twist. Inspired by curiosity and crafted with a blend
+            of creativity, this flavor embraces a playful name while delivering
+            a surprisingly delightful experience. Infused with a medley of
+            distinctive ingredients, Humangas Ice Cream showcases KR Creams'
+            commitment to pushing flavor boundaries. Step into a realm of
+            culinary adventure as you explore this quirky yet intriguing frozen
+            delight, destined to ignite laughter and intrigue among those who
+            dare to savor its unique charm.
+          </p>
+        </div>
+        <div class="flav-col">
+          <h3>Aafat Ice Cream</h3>
+          <p>
+            Aafat Ice Cream by KR Creams, a delightful frozen creation crafted
+            with love. This tantalizing treat combines the classic goodness of
+            vanilla ice cream with a generous sprinkling of chocolate chips and
+            a touch of secret ingredients. Each ingredient is meticulously
+            prepared with dedication and passion, resulting in a truly
+            remarkable flavor experience.Aafat Ice Cream is a culinary marvel,
+            often regarded as the 8th wonder of the world. Its popularity knows
+            no bounds, captivating taste buds around the globe. This scrumptious
+            delight is adored by both kids and adults alike, making it a
+            universally loved treat.
+          </p>
+        </div>
+        <div class="flav-col">
+          <h3>Butterfly Ice Cream</h3>
+          <p>
+            Butterfly Ice Cream by KR Creams is a whimsical frozen treat shaped
+            like a butterfly. Despite its name, it doesn't contain any
+            butterflies. The ice cream comes in a range of delicious flavors,
+            from classic options like vanilla and chocolate to unique
+            combinations like cookies and cream or caramel swirl. Its creamy
+            texture and delightful shape make it a delightful and visually
+            appealing dessert for any occasion.The butterfly shape of the ice
+            cream adds an element of playfulness to the overall experience. The
+            intricate details of the wings make each serving visually appealing,
+            making it an ideal treat for special occasions or simply to enjoy on
+            a sunny day.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--------JavaScript for Toggle Menu------->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

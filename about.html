@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KR Creams</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <section class="about">
+      <nav>
+        <a href="index.html"><img src="images/KR Creams Logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="flavours.html">Flavours</a></li>
+            <li><a href="testimonials.html">Reviews</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="about-section">
+        <h1 class="about-title">About Us</h1>
+        <p class="about-paragraph">
+          KR Creams is an acclaimed ice cream brand known for crafting exquisite flavors infused with love and passion. Our visionary founder, Adarsh K R, also recognized as The Father of the Human Gas Bomb, brings an unparalleled dedication to curating the most delightful and unforgettable ice cream experiences. With a commitment to quality and innovation, we take pride in offering a diverse range of flavors that cater to every palate. At KR Creams, we believe that ice cream is more than just a dessert—it's an embodiment of joy, creativity, and a shared love for indulgence. Join us on a journey of taste and discovery, where each scoop is a testament to our unwavering commitment to excellence.        </p>
+      </div>
+    
+      <!-- Box Container -->
+      <div class="box-container">
+        <!-- Box 1 -->
+        <div class="box">
+          <img src="images/visions.png" alt="Image" />
+          <h3>Our Vision</h3>
+          <p>Making delightful ice cream accessible and affordable for all, ensuring enjoyable experiences.</p>
+        </div>
+        <!-- Box 2 -->
+        <div class="box">
+          <img src="images/goals.png" alt="Image" />
+          <h3>Our Goal</h3>
+          <p>Crafting premium ice cream with love, distributing internationally via an efficient cold chain.</p>
+        </div>
+        <!-- Box 3 -->
+        <div class="box">
+          <img src="images/values.png" alt="Image" />
+
+          <h3>Our Values</h3>
+          <p>Empowering informed choices for educated consumers, emphasizing value aligned with well-being.<p>
+        </div>
+      </div>
+    
+      <!-- Social Icons -->
+      <div class="social-icons-section">
+        <h2 class="social-title">Socials</h2>
+        <div class="icon-container">
+          <a href="https://youtube.com/@krcreams"><img src="images/iconmonstr-youtube-9-240.png" alt="Youtube" /></a>
+          <a href="https://instagram.com/krcreams"><img src="images/iconmonstr-instagram-14-240.png" alt="Instagram" /></a>
+          <a href=mailto:"krcreams@gmail.com"><img src="images/gmail.png" alt="Gmail" /></a>
+
+        </div>
+      </div>
+    
+      <!-- About Founder Section -->
+      <div class="founder-section">
+        <h1 class="section-title">About Our Founder</h1>
+        <div class="founder-image">
+          <img src="images/KR.jpeg" alt="Founder" />
+        </div>
+        <p class="founder-paragraph">
+          Adarsh K R, the driving force behind KR Creams, was born on April 2, 2006, in the enchanting landscapes of Kerala. His fervent passion for both love and ice cream led him to combine these elements into extraordinary frozen delights. With creativity as his compass, Adarsh's innovative spirit has transformed KR Creams into a household name. His dedication to crafting flavors that resonate with the heart has left an indelible mark on the world of frozen treats, making every bite a journey of joy and love.
+        </p>
+        <!-- Social Icons -->
+      <div class="social-icons-section">
+        <h2 class="social-title">Socials</h2>
+        <div class="icon-container">
+          <a href="https://youtube.com/@adarshadarsh947"><img src="images/iconmonstr-youtube-9-240.png" alt="Youtube" /></a>
+          <a href="https://www.instagram.com/_adarsh._k_.r/"><img src="images/iconmonstr-instagram-14-240.png" alt="Instagram" /></a>
+          <a href="https://twitter.com/Adarshkr4747"><img src="images/iconmonstr-twitter-4-240.png" alt="X" /></a>
+          <a href="https://www.facebook.com/profile.php?id=100071958043993&mibextid=2JQ9oc"><img src="images/iconmonstr-facebook-4-240.png" alt="Facebook" /></a>
+        </div>
+      </div>
+      </div>    
+      <div class="developer-section">
+          <h2>Website developed by Abishek.</h2>
+        <!-- Social Icons -->
+      <div class="social-icons-section">
+        <div class="icon-container">
+          <a href="https://youtube.com/@abishek786"><img src="images/iconmonstr-youtube-9-240.png" alt="Youtube" /></a>
+          <a href="https://www.instagram.com/scorp1__/"><img src="images/iconmonstr-instagram-14-240.png" alt="Instagram" /></a>
+          <a href=mailto:"gabishek786@gmail.com"><img src="images/gmail.png" alt="Gmail" /></a>
+        </div>
+      </div>
+      </div>    
+    </section>
+  </body>
+</html>
+
+    </section>
+
+    <!--------JavaScript for Toggle Menu------->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
